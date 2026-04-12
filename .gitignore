@@ -1,0 +1,34 @@
+# Dữ liệu (Dữ liệu gốc và Dữ liệu đã xử lý)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Mô hình huấn luyện và Chỉ số hiệu suất
+models/*.joblib
+models/*.json
+models/*.pkl
+
+# Hình ảnh và Báo cáo trực quan hóa
+figures/*.png
+figures/*.jpg
+report/figures_minimal/*
+report/figures/*
+
+# Môi trường ảo và Cache
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Tệp cấu hình cá nhân
+.env
+.vscode/
+.idea/
+
+outputs/
+notebooks/*.joblib
+notebooks/*.csv
